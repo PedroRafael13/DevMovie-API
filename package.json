@@ -2,9 +2,9 @@
   "name": "movie-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,9 @@
   "dependencies": {
     "express": "^4.19.2",
     "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1",
+    "sucrase": "^3.35.0"
   }
 }
