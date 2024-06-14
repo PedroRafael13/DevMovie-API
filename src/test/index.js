@@ -1,3 +1,5 @@
 class APpp {
-  
+  constructor(){
+    
+  }
 }
